@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import Home from './components/Home/Home.jsx'
-import { createBrowserRouter,RouterProvider,} from "react-router-dom";
+import { createHashRouter,RouterProvider,} from "react-router-dom";
 import Layout from './components/Layout/Layout';
 
 import './index.css'
@@ -11,7 +11,7 @@ import Register from './pages/Register.jsx';
 import Signin from './pages/Signin.jsx';
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {path:"",element:<Layout/>,children:[
     {index:true,element:<Home/>},
     {path:'/ourShop',element:<MomiesShop/>},
