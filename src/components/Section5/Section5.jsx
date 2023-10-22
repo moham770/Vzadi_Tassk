@@ -2,8 +2,8 @@
 import image from '../../assets/Images/images__1_-removebg-preview.png'
 import styled from './Section5.module.css'
 const Section5 = () => {
-  return <section name='section5' id='sec5' className='my-5 py-5'>
-    <div className="container py-5 my-5">
+  return <section name='section5' id='sec5' className='mt-4 py-4 '>
+    <div className="container py-5 mt-5">
         <div className="row  align-items-center justify-content-between    ">
             <div className="col-md-6    ">
                 <div style={{width:"400px"}} className="sec5img">

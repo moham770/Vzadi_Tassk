@@ -3,7 +3,7 @@
 const Section3 = () => {
   return (
     <section name='section3' id="sec3" className="my-5 py-5">
-      <div className="container my-5">
+      <div className="container mt-5">
 
     
       <div className="row align-items-center  ">

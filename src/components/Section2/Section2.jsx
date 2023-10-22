@@ -3,7 +3,7 @@ import image from '../../assets/Images/sticker-png-digital-marketing-ecommerce-o
 
 const Section2 = () => {
 
-    return <section name="section2" id='sec2' className={`my-5 ${styled.column1} `}>
+    return <section name="section2" id='sec2' className={`mt-5 ${styled.column1} `}>
         <div className="container py-5">
             <div className="my-5">
         <div className="row py-5 align-items-center ">
