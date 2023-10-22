@@ -4,8 +4,8 @@ import sunglass from '../../assets/Images/sunglasses.png'
 import styled from './Section4.module.css'
 
 const Section4 = () => {
-  return <section id='sec4' className='my-4'>
-    <div className="container">
+  return <section name='section4' id='sec4' className='my-5 py-5'>
+    <div className="container my-5">
         <div className="row align-items-center ">
         <div  className="col-md-6">
             <div style={{width:'250px'}} className="mx-1 img">

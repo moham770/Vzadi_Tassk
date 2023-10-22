@@ -8,7 +8,7 @@ const Signin = () => {
   <form>
    
   <nav aria-label="breadcrumb">
-  <ol className="breadcrumb">
+  <ol className="breadcrumb fw-bold fs-3">
     <li className="breadcrumb-item"><NavLink to="/">Home</NavLink></li>
     <li className="breadcrumb-item"><NavLink to="/register">Register</NavLink></li>
     <li className="breadcrumb-item active" aria-current="page">Login</li>

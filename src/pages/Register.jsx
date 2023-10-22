@@ -6,7 +6,7 @@ const Register = () => {
    <div className="container text-black bg-second my-4 py-3 rounded-2 ">
    <h2 className='fw-bolder'> Register Now:</h2>
    <nav aria-label="breadcrumb">
-  <ol className="breadcrumb">
+  <ol className="breadcrumb fw-bold fs-3">
     <li className="breadcrumb-item"><NavLink to="/">Home</NavLink></li>
     <li className="breadcrumb-item active" aria-current="page">Register</li>
   </ol>

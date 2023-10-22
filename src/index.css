@@ -2,15 +2,20 @@
     --main-color:#478ec2;
     --second-color:#009
 }
-html{
-    scroll-padding-top: 70px;
-}
+
 body{
-    padding-top: 70px;
+    scroll-padding-top:100px !important;
+    padding-top: 100px !important;
 }
+
 h1{
     font-size: 60px !important;
 }
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: inherit;
+    }
+  }
 
 .text-main{
 color: var(--main-color);
@@ -73,4 +78,11 @@ a{
 
 .bg-second{
     background-color: #b3b3b3;
+}
+.notfound{
+    background-image: url(../public/images/error.svg);
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
 }

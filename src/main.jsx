@@ -9,6 +9,7 @@ import './index.css'
 import MomiesShop from './pages/MomiesShop.jsx';
 import Register from './pages/Register.jsx';
 import Signin from './pages/Signin.jsx';
+import NotFound from './pages/NotFound.jsx';
 
 
 const router = createHashRouter([
@@ -17,6 +18,7 @@ const router = createHashRouter([
     {path:'/ourShop',element:<MomiesShop/>},
     {path:'/register',element:<Register/>},
     {path:'/signin',element:<Signin/>},
+    {path:'*',element:<NotFound/>},
   ]}
 ])
 

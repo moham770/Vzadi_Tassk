@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from '../../assets/Images/M.png'
+import { Link as LinkScroll , Element } from 'react-scroll';
 
 const Navbar = () => {
   return <>
@@ -15,24 +16,45 @@ const Navbar = () => {
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul data-bs-spy="scroll"  className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/#sec1">Section1</a>
+     
+       
+        <li className="nav-item cursor-pointer">
+        <LinkScroll  spy={true}  className="nav-link" to="section1" smooth={true} duration={500}> 
+        Section 1
+        </LinkScroll>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/#sec2">Section2</a>
+        <li className="nav-item cursor-pointer">
+        <LinkScroll  spy={true}  className="nav-link" to="section2" smooth={true} duration={500}> 
+        Section 2
+        </LinkScroll>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/#sec3">Section3</a>
+
+        <li className="nav-item cursor-pointer">
+        <LinkScroll  spy={true}  className="nav-link" to="section3" smooth={true} duration={500}> 
+        Section 3
+        </LinkScroll>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/#sec4">Section4</a>
+    
+        <li className="nav-item cursor-pointer">
+        <LinkScroll  spy={true}  className="nav-link" to="section4" smooth={true} duration={500}> 
+        Section 4
+        </LinkScroll>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/#sec5">Section5</a>
+
+        <li className="nav-item cursor-pointer">
+        <LinkScroll  spy={true}  className="nav-link" to="section5" smooth={true} duration={500}> 
+        Section 5
+        </LinkScroll>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/#sec6">Section6</a>
+
+        <li className="nav-item cursor-pointer">
+        <LinkScroll  spy={true}  className="nav-link" to="section6" smooth={true} duration={500}> 
+        Section 6
+        </LinkScroll>
         </li>
+
+      
+     
         
         
       </ul>
@@ -44,8 +66,11 @@ const Navbar = () => {
         <li className="nav-item">
           <NavLink className="nav-link" to="/register">Register</NavLink>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/#footer">Contact US</a>
+
+        <li className="nav-item cursor-pointer">
+        <LinkScroll  spy={true}  className="nav-link" to="footer" smooth={true} duration={100}> 
+     Contact US
+        </LinkScroll>
         </li>
         
         

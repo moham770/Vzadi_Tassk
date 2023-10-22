@@ -4,7 +4,7 @@ import apple from '../../assets/Images/800px-Download_on_the_App_Store_Badge_IT_
 import styled from './Footer.module.css'
 
 const Footer = () => {
-  return <footer id='footer' className='bg-dark py-5 text-white  mt-5'>
+  return <footer name='footer' id='footer' className='bg-dark py-5 text-white  mt-5'>
     <div className="container my-5">
         <div className="row gy-3 text-center">
             <div className="col-md-3">

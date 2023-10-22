@@ -3,7 +3,7 @@ import logo from '../../assets/Images/M.png'
 import image from '.././../../public/images/pngtree-mobile-advertising-app-vector-material-png-image_6992125-removebg-preview.png'
 
 const Section1 = () => {
-  return <section id='sec1' className='my-2 d-flex  align-items-center '>
+  return <section name='section1' id='sec1' className='my-2 d-flex  align-items-center '>
   <div className="container   ">
   <div className="row justify-content-between  align-items-center gap-4 ">
     <div className="col-md-6 homesection  " >

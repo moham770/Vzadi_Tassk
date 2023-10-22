@@ -2,7 +2,7 @@ import img from '../../assets/Images/QuestionMark.png'
 import styled from './Section6.module.css' 
 import logo from '../../assets/Images/M.png'
 const Section6 = () => {
-  return <section id='sec6'>
+  return <section name='section6' className=' py-5 ' id='sec6'>
     <div className="container my-5 py-5">
         <div className="row gy-3 mb-5 ">
             <div className="col-md-6  ">
