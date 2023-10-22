@@ -1,0 +1,23 @@
+.logostores{
+    width: 200px !important;
+    cursor: pointer;
+  
+}
+.rowLogoStores{
+    justify-content: end;
+}
+.footerImg{
+    height: 300px;
+    background-color: #a0dcff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+@media screen and (max-width:772px) {
+
+    .footerImg{
+    height: 200px;
+
+}
+}
