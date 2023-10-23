@@ -67,11 +67,7 @@ const Navbar = () => {
           <NavLink className="nav-link" to="/register">Register</NavLink>
         </li>
 
-        <li className="nav-item cursor-pointer">
-        <LinkScroll  spy={true}  className="nav-link" to="footer" smooth={true} duration={100}> 
-     Contact US
-        </LinkScroll>
-        </li>
+     
         
         
       </ul>
