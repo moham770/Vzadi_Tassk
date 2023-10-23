@@ -1,14 +1,30 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from '../../assets/Images/M.png'
 import { Link as LinkScroll , Element } from 'react-scroll';
+import { useEffect, useRef } from "react";
 
 const Navbar = () => {
+
+const navRef =useRef()
+useEffect(()=>{
+  window.addEventListener('scroll',()=>{
+    if(window.scrollY > 100){
+      navRef.current.style.padding='5px 0'
+      navRef.current.classList.replace('bg-transparent','bg-semiWhite')
+      console.log('more')
+    }else{
+      navRef.current.style.padding='20px 0'
+      navRef.current.classList.replace('bg-semiWhite','bg-transparent')
+    }
+  })
+},[])
+
   return <>
-<nav className="navbar navbar-expand-lg bg-white navbar-light fixed-top " id='Navbar' >
+<nav ref={navRef} style={{padding:'5px 0',transition:'0.5s'}} className="navbar navbar-expand-lg bg-transparent  navbar-light fixed-top " id='Navbar' >
   <div className="container">
     <Link className="navbar-brand" to="/">
       <div className="" style={{width:'200px',objectFit:'contain',objectPosition:"center"}}>
-      <img className="w-100 h-100" src={logo} alt="" />
+      <img style={{mixBlendMode:"multiply"}} className="w-100 h-100" src={logo} alt=""  />
       </div>
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

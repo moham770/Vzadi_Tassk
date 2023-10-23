@@ -48,6 +48,12 @@ background-color: var(--main-color);
     transition: 0.5s;
     width: fit-content;
 }
+.bg-semiWhite{
+    background-color: #f0eded !important;
+}
+.bg-transparent{
+    background-color: #fff !important;
+}
 .btn-black:hover{
     background-color: #000000;
     color: #fff;
