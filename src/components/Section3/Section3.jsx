@@ -1,8 +1,8 @@
 
 
 const Section3 = () => {
-  return (
-    <section name='section3' id="sec3" className="my-5 py-5">
+  return  <section name='section3' className="my-5 py-5">
+   
       <div className="container mt-5">
 
     
@@ -32,7 +32,7 @@ const Section3 = () => {
       </div>  
       </div>
     </section>
-  );
+  
 };
 
 export default Section3;

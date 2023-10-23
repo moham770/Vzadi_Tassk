@@ -4,3 +4,15 @@
     border-radius: 10px;
     margin: 5px 0;
 }
+
+
+@media screen and (max-width:992px) {
+    .imgSunGlass{
+        width: 170px;
+        background-color: #eee;
+        border-radius: 10px;
+        margin: 10px 5px !important;
+
+    }
+    
+}

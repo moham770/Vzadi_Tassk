@@ -18,6 +18,35 @@
 
     .footerImg{
     height: 200px;
+    background-color: transparent;
+       width: 300px;
+
+ 
 
 }
+}
+@media screen and (max-width:768px) {
+
+    .footerImg{
+    height: auto;
+    padding: 0 !important;
+    margin: 0!important;
+
+}
+}
+@media screen and (max-width:400px) {
+
+    .logostores{
+        width: 180px !important;
+      
+      
+    }
+}
+@media screen and (max-width:362px) {
+
+    .logostores{
+        width: 150px !important;
+      
+      
+    }
 }

@@ -20,7 +20,7 @@ const Section4 = () => {
 
         </div>
         <div className="col-md-6">
-            <div className="row g-4 align-items-center ">
+            <div className="row  align-items-center ">
                 <div className="col-md-6 ">
                         <div className={styled.imgSunGlass +`  position-relative `}>
                         <img className={` w-100 `}  src={sunglass} alt="" />

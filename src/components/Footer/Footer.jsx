@@ -7,7 +7,7 @@ const Footer = () => {
   return <footer name='footer' id='footer' className='bg-dark py-5 text-white  mt-5'>
     <div className="container my-5">
         <div className="row gy-3 text-center">
-            <div className="col-md-3">
+            <div className="col-md-3  d-flex justify-content-center">
                 <div className={styled.footerImg}>
                     <img src={logo} className='w-100 mt-3 rounded-1  cursor-pointer' alt="" />
                 </div>
@@ -40,10 +40,10 @@ const Footer = () => {
             </div>
         </div>
         <div className={`row mt-4 justify-content-end `}>
-            <div className={styled.logostores}>
+            <div className={styled.logostores+` my-2`}>
             <img className='w-100'  src={google} alt="" />
             </div>
-            <div className={styled.logostores}>
+            <div className={styled.logostores+` my-2`}>
 
             <img  className='w-100' src={apple} alt="" />
             </div>
