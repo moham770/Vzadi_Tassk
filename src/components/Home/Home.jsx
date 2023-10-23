@@ -9,7 +9,7 @@ import Section6 from "../Section6/Section6"
 
 
 const Home = () => {
-  return <main   data-bs-spy="scroll" data-bs-target="#Navbar">
+  return <main >
   <Section1/>
   <Section2/>
   <Section3/>

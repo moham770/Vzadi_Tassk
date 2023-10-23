@@ -31,7 +31,7 @@ useEffect(()=>{
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul data-bs-spy="scroll"  className="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul   className="navbar-nav me-auto mb-2 mb-lg-0">
      
        
         <li className="nav-item cursor-pointer">
@@ -74,7 +74,7 @@ useEffect(()=>{
         
         
       </ul>
-      <ul data-bs-spy="scroll" className="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul  className="navbar-nav ms-auto mb-2 mb-lg-0">
        
         <li className="nav-item">
           <NavLink className="nav-link" to="/signin ">Sign in</NavLink>
