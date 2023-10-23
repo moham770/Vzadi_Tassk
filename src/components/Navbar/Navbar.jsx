@@ -27,9 +27,18 @@ useEffect(()=>{
       <img style={{mixBlendMode:"multiply"}} className="w-100 h-100" src={logo} alt=""  />
       </div>
     </Link>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  
+      {/* <span className=""></span> */}
+      <label className="burger navbar-toggler-icon navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" for="burger" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <input type="checkbox" id="burger"/>
+  <span></span>
+  <span></span>
+  <span></span>
+</label>
+
+    {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
-    </button>
+    </button> */}
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul   className="navbar-nav me-auto mb-2 mb-lg-0">
      
